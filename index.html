@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel='stylesheet' href='main.css'>
+	<script src='jquery-1.11.3.min.js'></script>
+	<script src='script.js'></script>
+</head>
+<body>
+<div id='calculator'>
+	
+<!--	<input id='result' value='0' onfocus='blur()'> read only for user-->
+	<div id='resultContainer'><p id='result'></p></div>
+	
+	<input type="button" value='Clear' id='clear'>
+<!--	row one-->
+<div id='row1'>
+	<button type='button' value="1" class='key' id='one'>1</button>
+	<button type='button' value="2" class='key' id='two'>2</button>
+	<button type='button' value="3" class='key' id='three'>3</button>
+	<button type='button' value="+" id='plus' class='key operation'>+</button>
+</div>
+	
+	<!-- row two -->
+	<button type='button' value="4" class='key' id='four'>4</button>
+	<button type='button' value="5" class='key' id='five'>5</button>
+	<button type='button' value="6" class='key' id='six'>6</button>
+	<button type='button' value="-" id='minus' class='key operation'>-</button>
+	
+	<!-- row three -->
+	<button type='button' value="7" class='key' id='one'>7</button>
+	<button type='button' value="8" class='key' id='two'>8</button>
+	<button type='button' value="9" class='key' id='three'>9</button>
+	<button type='button' value="*" id='multiply' class='key operation'>x</button>
+	
+	<!-- row four -->
+	<button type='button' value="0" class='key' id='zero'>0</button>
+	<button type='button' value="." id='decimal' class='key'>.</button>
+	<button type='button' value="=" id='equals'>=</button>
+	<button type='button' value="/" id='divide' class='key operation'>/</button>
+	
+</div>
+</body>
+</html>
